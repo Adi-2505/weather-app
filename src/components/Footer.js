@@ -9,7 +9,7 @@ export default function Footer() {
             <div className="left p-2">
                 <ul>
                     <li>Source : <a href="https://www.weatherbit.io/" className='text-blue-600 hover:underline'>Weatherbit API</a></li>
-                    <li>All rights reserved © <a href="/" className='text-blue-600 hover:underline'>Taapman.com</a> 2022</li>
+                    <li>All rights reserved © <a href="#" className='text-blue-600 hover:underline'>Taapman.com</a> 2022</li>
                 </ul>
 
             </div>
