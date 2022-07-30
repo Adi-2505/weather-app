@@ -7,7 +7,6 @@ export default function Search(props) {
 
     return (
         <div className='h-[100px] w-[550px] bg-[#00000042] backdrop-blur my-3 rounded-lg flex flex-col justify-center items-center'>
-            {/* form to get data from the user */}
             <div className="flex justify-between items-center w-[500px]">
                 <input type="text" name="" id="city" placeholder='City' className='w-[246px] h-[30px] px-4 rounded-[5px] ' />
                 <input type="text" name="" id="country" placeholder='Country' className='w-[246px] h-[30px] px-4 my-1.5 rounded-[5px] ' />

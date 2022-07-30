@@ -64,7 +64,6 @@ function App() {
     const response = await fetch(url);
     let weather = await response.json();
     if (weather.error == null) {
-      console.log(weather);
       setWeather(weather);
       let d = new Date();
       let date = d.toLocaleString();
